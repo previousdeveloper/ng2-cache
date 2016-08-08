@@ -1,0 +1,28 @@
+{
+  "name": "ng2-memory-cache",
+  "version": "0.0.1",
+  "description": "Client side  in memory caching service for Angular2",
+  "main": "ng2-memory-cache.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/previousdeveloper/ng2-memory-cache"
+  },
+  "scripts": {
+    "prepublish": "typings install && tsc"
+  },
+  "typings": "ng2-memory.cache.d.ts",
+  "keywords": [
+    "memory cache",
+    "angular2",
+    "client-side",
+    "caching"
+  ],
+  "author": "Gokhan Karadas",
+  "peerDependencies": {
+
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "0.8.1"
+  }
+}
